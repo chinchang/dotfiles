@@ -1,0 +1,29 @@
+[user]
+	name = Kushagra Gour
+	email = EMAIL
+[alias]
+	ci = commit
+    	co = checkout
+    	cob = checkout -b
+	st = status
+	di = diff
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	rank = shortlog -sn
+	pr = pull --rebase
+	rh1 = reset --hard HEAD^
+[core]
+	editor = vim
+[color]
+	diff = auto
+    	status = auto
+    	branch = auto
+    	interactive = auto
+    	ui = true
+    	pager = true
+[color "status"]
+    	added = green
+    	changed = yellow
+    	untracked = red
+[merge]
+	tool = meld
