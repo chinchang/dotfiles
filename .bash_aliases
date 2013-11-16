@@ -3,4 +3,5 @@ alias agi='sudo apt-get install'
 alias subl='sublime -w'
 alias tf='tail -f'
 alias startjs='sudo jekyll --server --auto'
-alias rentab='guake -r'
+alias tm='tmux'
+
