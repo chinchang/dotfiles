@@ -7,6 +7,14 @@
     	cob = checkout -b
 	st = status
 	di = diff
+	s = stash
+	sp = stash pop
+	sl = stash list
+	fp = fetch --prune
+	rbm = rebase origin/master
+	mm = merge origin/master
+	rc = rebase --continue
+	ra = rebase --abort
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
 	lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
 	rank = shortlog -sn
