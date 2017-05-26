@@ -37,6 +37,7 @@
 	changelog = log --merges --format='%an: %s' live..HEAD
 	save = !git add -A && git commit -m 'SAVEPOINT'
 	wip = commit -am "WIP"
+	recent = for-each-ref --count=10 --sort=-committerdate refs/heads/ --format="%(refname:short)"
 [core]
 	editor = vim
 [color]
